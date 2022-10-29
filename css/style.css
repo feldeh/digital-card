@@ -6,7 +6,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: inter;
 }
 
 html,
@@ -14,6 +13,14 @@ body {
   width: 100%;
   height: 100%;
   background-color: #1e1e1e;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .container {
@@ -29,6 +36,7 @@ body {
 .profile-picture {
   height: 379px;
   background-image: url(../img/profile_pic.jpg);
+  transform: scaleX(-1);
   background-size: cover;
   background-position: center;
   border-top-left-radius: 30px;
@@ -36,10 +44,132 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.bio {
+  width: 140px;
 }
 
 .contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 15px 0px;
+}
+
+.contact-btn {
+  background-color: white;
+  border: solid 1px #e0e0e0;
+  margin: 10px auto 10px;
+  height: 90px;
+  width: 90px;
+  border-radius: 70%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-btn {
+  justify-content: space-between;
+  width: 60px;
+  height: 60px;
+  border-radius: 70%;
+  background: #fbfbfb;
+  box-shadow: 3px 4px 5px rgba(135, 135, 135, 0.15);
+  border: solid 0px;
+}
+
+.business-logo {
+  background: url('../img/Ellipse\ 1.svg');
+  height: 100px;
+  width: 100px;
+}
+
+#mail-btn {
+  background: url('../img/MAIL.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#calendar-btn {
+  background: url('../img/Calendar.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#phone-btn {
+  background: url('../img/Phone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#linkedin-btn {
+  background: url('../img/Linkedin.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#site-btn {
+  background: url('../img/Cursor.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#chat-btn {
+  background: url('../img/Dialog.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#share-btn {
+  margin-left: 100px;
+  background: url('../img/Share.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#add-acc-btn {
+  margin-right: 100px;
+  background: url('../img/Add\ Account-1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#edit-btn {
+  transform: scaleX(-1);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+  border: solid 0px;
+  left: 20px;
+  top: 15px;
+  background: url('../img/edit.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  mix-blend-mode: soft-light;
+
+  box-shadow: 3px 4px 5px #000000;
 }
