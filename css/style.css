@@ -1,6 +1,12 @@
+@font-face {
+  font-family: inter;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: inter;
 }
 
 html,
@@ -16,15 +22,17 @@ body {
   background-color: #ffffff;
   border-radius: 30px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-picture {
   height: 379px;
-  left: 0px;
-  top: 379px;
   background-image: url(../img/profile_pic.jpg);
   background-size: cover;
   background-position: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .header {
