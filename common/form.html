@@ -11,55 +11,55 @@
 </head>
 
 <body>
-
-    <body>
-        <div class="back">
-            <div>
-                <p class="title">Edit profile</p>
-                <button id="profile-btn" onclick="window.location='../index.html'"></button>
-            </div>
-            <div class="upload-img">
-                <button class="upload-img-btn">Profile picture</button><button class="upload-img-btn">Business
-                    logo</button>
-            </div>
-            <form action="" id="profile-form"> <label for="name">Name & surname</label><br>
-                <input type="text" id="name" name="name" value=""><br>
-                <label for="job-title">Job title</label><br>
-                <input type="text" id="job-title" name="job-title" value=""><br>
-                <label for="company-name">Company name</label><br>
-                <input type="text" id="company-name" name="company-name" value=""><br>
-                <label for="one-line">One line description</label><br>
-                <input type="text" id="one-line" name="one-line" value=""><br>
-            </form>
-            <div class="add-info">
-                <div class="row">
-                    <div class="column">
-                        <button class=" add-info-btn" id="first-add-info-btn">Add info</button>
-                    </div>
-                    <div class="column">
-                        <button class=" add-info-btn">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <button class=" add-info-btn">
-                    </div>
-                    <div class="column">
-                        <button class=" add-info-btn">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <button class=" add-info-btn">
-                    </div>
-                    <div class="column">
-                        <button class=" add-info-btn">
-                    </div>
-                </div>
-            </div>
-            <button type="submit" form="profile-form" id="save-btn">Save profile</button>
+    <div class="back">
+        <div>
+            <p class="title">Edit profile</p>
+            <button id="profile-btn" onclick="window.location='../index.html'"></button>
         </div>
-    </body>
+        <div class="upload-img">
+            <button class="upload-img-btn">Profile picture</button><button class="upload-img-btn">Business
+                logo</button>
+        </div>
+        <form action="javascript:onSubmit()" id="profile-form"> <label for="full-name">Name & surname</label><br>
+            <input type="text" id="full-name" name="full-name" value=""><br>
+            <label for="job-title">Job title</label><br>
+            <input type="text" id="job-title" name="job-title" value=""><br>
+            <label for="company-name">Company name</label><br>
+            <input type="text" id="company-name" name="company-name" value=""><br>
+            <label for="one-line">One line description</label><br>
+            <input type="text" id="one-line" name="one-line" value=""><br>
+        </form>
+        <div class="add-info">
+            <div class="row">
+                <div class="column">
+                    <button class=" add-info-btn" id="first-add-info-btn">Add info</button>
+                </div>
+                <div class="column">
+                    <button class=" add-info-btn">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button class=" add-info-btn">
+                </div>
+                <div class="column">
+                    <button class=" add-info-btn">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <button class=" add-info-btn">
+                </div>
+                <div class="column">
+                    <button class=" add-info-btn">
+                </div>
+            </div>
+        </div>
+        <button type="submit" form="profile-form" id="save-btn">Save
+            profile</button>
+    </div>
+    <script src="../js/form.js"></script>
 </body>
+
 
 </html>
