@@ -220,7 +220,7 @@ body {
 .upload-img {
   display: flex;
   justify-content: space-between;
-  margin: 60px 30px 50px;
+  margin: 60px 23px 45px;
 }
 
 #profile-form {
@@ -249,9 +249,31 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: solid 0px;
   border-radius: 10px;
-  margin: auto;
+  margin: 5px auto 0px;
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
   color: #878787;
+}
+
+.add-info {
+  display: flex;
+}
+
+.add-info-btn {
+  width: 100px;
+  height: 100px;
+  background-color: #f3f2f2;
+  border-radius: 70%;
+  border: solid 0px;
+  margin: 7px 0px 7px;
+}
+
+#first-add-info-btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../img/Cross.svg);
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  text-transform: uppercase;
+  line-height: 140px;
 }
