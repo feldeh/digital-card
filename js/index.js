@@ -20,6 +20,6 @@ function updateBio() {
     jobTitle.textContent = 'Back-end developer';
     companyName.textContent = 'Listri Digital';
     oneLine.textContent =
-      'Experience is the name everyone gives to their mistakes.';
+      '“Experience is the name everyone gives to their mistakes.”';
   }
 }

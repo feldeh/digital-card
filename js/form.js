@@ -22,7 +22,7 @@ function onSubmit() {
     } else if (input.name == 'company-name') {
       form.companyName = input.value;
     } else if (input.name == 'one-line') {
-      form.oneLine = input.value;
+      form.oneLine = `“${input.value}.”`;
     }
   });
 

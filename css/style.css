@@ -41,6 +41,7 @@ body {
   background-position: center;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  border-bottom: solid 10px orange;
 }
 
 .header {
@@ -54,11 +55,29 @@ body {
   width: 140px;
 }
 
+.bio p {
+  line-height: 22px;
+}
+
+#jobTitle {
+  text-transform: uppercase;
+  color: #878787;
+}
+
+#companyName {
+  color: #878787;
+}
+
+#oneLine {
+  font-style: italic;
+  line-height: 17px;
+}
+
 .contacts {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 10px 15px 0px;
+  margin: 5px 15px 0px;
 }
 
 .contact-btn {
@@ -207,7 +226,7 @@ body {
   height: 50px;
   border-radius: 70%;
   border: solid 0px;
-  left: 350px;
+  left: 370px;
   top: 25px;
   background: url('../img/Add\ Account.svg');
   background-color: #edebeb;
