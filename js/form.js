@@ -7,10 +7,6 @@ oneLine = document.querySelector('#one-line');
 
 let inputs = Array.from(document.querySelectorAll('input'));
 
-function updateValue(e) {
-  e.target.value = this.textContent;
-}
-
 function onSubmit() {
   console.log('onSubmit called');
   let form = {};
