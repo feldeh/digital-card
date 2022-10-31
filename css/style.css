@@ -221,13 +221,13 @@ body {
 }
 
 #profile-btn {
-  position: absolute;
+  position: relative;
   width: 50px;
   height: 50px;
   border-radius: 70%;
   border: solid 0px;
-  left: 515px;
-  top: 25px;
+  left: 320px;
+  top: -32px;
   background: url('../img/Add\ Account.svg');
   background-color: #edebeb;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ body {
 .upload-img {
   display: flex;
   justify-content: space-between;
-  margin: 60px 23px 45px;
+  margin: 15px 23px 45px;
 }
 
 #profile-form {
